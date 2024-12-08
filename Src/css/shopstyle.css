@@ -336,7 +336,7 @@
 }
 
 
-/* Mobile Version */
+/* Mobile Version (600px) */
 
 @media (max-width: 600px){
     .hero{
@@ -393,4 +393,48 @@
     .rental .gallery-bottom{
         flex-direction: column;
     }
+}
+
+/* Mobile Version (600px) */
+
+@media (max-width: 400px){
+    
+    .landscape .row1 .card{
+        width: 350px;
+    }
+
+    .landscape .row1 .card img{
+        height: 250px;
+    }
+
+    .landscape h1{
+        font-size: 50px;
+        line-height: 54px;
+        padding-top: 10px;
+    }
+
+    .landscape .row1 .card .card-details h2{
+        font-size: 18px;    
+    }
+
+    .landscape .row1 .card .card-details .card-price .off{
+        margin-left: 32px;
+        font-size: 14px;
+    }
+
+    .landscape .row2 .card .card-details h2{
+        font-size: 18px;    
+    }
+
+    .landscape .row2 .card .card-details .card-price .off{
+        margin-left: 32px;
+        font-size: 14px;
+    }
+
+    .rental h1{
+        font-size: 50px;
+        line-height: 54px;
+        padding-top: 10px;
+    }
+    
 }
