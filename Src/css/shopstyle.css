@@ -335,6 +335,170 @@
     opacity: 0.7;
 }
 
+/* Teblet Version (992px) */
+
+@media (max-width: 992px){
+    .hero{
+        padding: 0 30px;
+        height: 100vh;
+    }
+
+    .hero h1{
+        font-size: 72px;
+        line-height: 54px;
+        text-align: center;
+    }
+    
+    .hero p{
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .potrait{
+        height: auto;
+    }
+
+    .potrait h1{
+        font-size: 72px;
+        line-height: 54px;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+
+    .potrait .gallery{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .potrait .gallery .card{
+        width: 420px;
+        margin-bottom: 10px;
+    }
+
+    .potrait .gallery .card img{
+        height: 475px;
+    }
+
+    .potrait .gallery .card .card-details button{
+        font-size: 28px;
+        height: 72px;
+        margin: 10px 10px;
+        margin-bottom: 20px;
+        width: 375px;
+    }
+
+    .potrait .gallery .card .card-details h2{
+        font-size: 36px;
+        margin-left: 10px;
+    }
+
+    .potrait .gallery .card .card-details .card-price{
+        font-size: 24px;
+        margin-left: 10px;
+    }
+
+    .potrait .gallery .card .card-details .card-price .off{
+        font-size: 22px;
+        margin-right: 10px;
+        margin-bottom: 5px;
+    }
+
+    .landscape{
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    .landscape h1{
+        font-size: 65px;
+    }
+
+    .landscape .row1 .card img{
+        height: 250px;
+    }
+
+    .rental h1{
+        font-size: 65px;
+        line-height: 72px;
+        margin-top: 25px;
+        margin-bottom: 40px;
+    }
+
+    .rental .gallery-top{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .rental .gallery-top .card{
+        width: 420px;
+    }
+
+    .rental .gallery-top .card img{
+        height: 475px;
+    }
+
+    .rental .gallery-top .card .card-details h2{
+        font-size: 36px;
+        margin-left: 10px;
+    }
+
+    .rental .gallery-top .card .card-details .card-price{
+        font-size: 24px;
+        margin-left: 10px;
+    }
+
+    .rental .gallery-top .card .card-details .card-price .off{
+        font-size: 22px;
+        margin-right: 10px;
+        margin-bottom: 5px;
+    }
+
+    .rental .gallery-top .card .card-details button{
+        font-size: 28px;
+        height: 72px;
+        margin: 10px 10px;
+        margin-bottom: 20px;
+        width: 375px;
+    }
+
+    .rental .gallery-bottom{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .rental .gallery-bottom .card{
+        width: 420px;
+    }
+
+    .rental .gallery-bottom .card img{
+        height: 475px;
+    }
+
+    .rental .gallery-bottom .card .card-details h2{
+        font-size: 36px;
+        margin-left: 10px;
+    }
+
+    .rental .gallery-bottom .card .card-details .card-price{
+        font-size: 24px;
+        margin-left: 10px;
+    }
+
+    .rental .gallery-bottom .card .card-details .card-price .off{
+        font-size: 22px;
+        margin-right: 10px;
+        margin-bottom: 5px;
+    }
+
+    .rental .gallery-bottom .card .card-details button{
+        font-size: 28px;
+        height: 72px;
+        margin: 10px 10px;
+        margin-bottom: 20px;
+        width: 375px;
+    }
+}
+
 /* Teblet Version (768px) */
 
 @media (max-width: 768px){
@@ -367,10 +531,35 @@
 
     .potrait .gallery .card{
         width: 625px;
+        margin-bottom: 10px;
     }
 
     .potrait .gallery .card img{
         height: 625px;
+    }
+
+    .potrait .gallery .card .card-details button{
+        font-size: 32px;
+        height: 84px;
+        margin: 10px 10px;
+        margin-bottom: 20px;
+        width: 580px;
+    }
+
+    .potrait .gallery .card .card-details h2{
+        font-size: 48px;
+        margin-left: 10px;
+    }
+
+    .potrait .gallery .card .card-details .card-price{
+        font-size: 28px;
+        margin-left: 10px;
+    }
+
+    .potrait .gallery .card .card-details .card-price .off{
+        font-size: 24px;
+        margin-right: 10px;
+        margin-bottom: 10px;
     }
 
     .landscape{
