@@ -335,6 +335,171 @@
     opacity: 0.7;
 }
 
+/* Teblet Version (768px) */
+
+@media (max-width: 768px){
+    .hero{
+        padding: 0 30px;
+    }
+
+    .hero h1{
+        font-size: 65px;
+        line-height: 54px;
+        text-align: center;
+    }
+    
+    .hero p{
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .potrait{
+        height: auto;
+        padding-bottom: 50px;
+    }
+
+    .potrait h1{
+        font-size: 65px;
+    }
+    .potrait .gallery{
+        flex-direction: column;
+    }
+
+    .potrait .gallery .card{
+        width: 625px;
+    }
+
+    .potrait .gallery .card img{
+        height: 625px;
+    }
+
+    .landscape{
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    .landscape h1{
+        font-size: 65px;
+    }
+
+    .landscape .row1{
+        flex-direction: column;
+    }
+
+    .landscape .row1 .card{
+        width: 625px;
+        margin-bottom: 30px;
+    }
+
+    .landscape .row1 .card img{
+        height: 400px;
+    }
+
+
+    .landscape .row1 .card .card-details h2{
+        font-size: 36px;
+    }
+
+    .landscape .row1 .card .card-details .card-price{
+        font-size: 24px;
+    }
+
+    .landscape .row1 .card .card-details .card-price .off{
+        font-size: 20px;
+    }
+
+    .landscape .row1 .card .card-details button{
+        width: 175px;
+        height: 50px;
+        border-radius: 5px;
+        margin-right: 10px;
+        font-size: 22px;
+    }
+
+    .rental h1{
+        font-size: 65px;
+        line-height: 72px;
+        margin-top: 25px;
+        margin-bottom: 40px;
+    }
+
+    .rental .gallery-top{
+        flex-direction: column;
+    }
+
+    .rental .gallery-top .card{
+        width: 625px;
+    }
+
+    .rental .gallery-top .card img{
+        height: 600px;
+    }
+
+    .rental .gallery-top .card .card-details h2{
+        font-size: 48px;
+        margin-left: 10px;
+    }
+
+    .rental .gallery-top .card .card-details .card-price{
+        font-size: 28px;
+        margin-left: 10px;
+    }
+
+    .rental .gallery-top .card .card-details .card-price .off{
+        font-size: 24px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+
+    .rental .gallery-top .card .card-details button{
+        font-size: 32px;
+        height: 76px;
+        margin: 10px 10px;
+        margin-bottom: 20px;
+        width: 580px;
+    }
+
+    .rental .gallery-bottom{
+        flex-direction: column;
+    }
+    
+    .rental .gallery-bottom{
+        flex-direction: column;
+    }
+
+    .rental .gallery-bottom .card{
+        width: 625px;
+    }
+
+    .rental .gallery-bottom .card img{
+        height: 600px;
+    }
+
+    .rental .gallery-bottom .card .card-details h2{
+        font-size: 48px;
+        margin-left: 10px;
+    }
+
+    .rental .gallery-bottom .card .card-details .card-price{
+        font-size: 28px;
+        margin-left: 10px;
+    }
+
+    .rental .gallery-bottom .card .card-details .card-price .off{
+        font-size: 24px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+
+    .rental .gallery-bottom .card .card-details button{
+        font-size: 32px;
+        height: 76px;
+        margin: 10px 10px;
+        margin-bottom: 20px;
+        width: 580px;
+    }
+}
+
 
 /* Mobile Version (600px) */
 
@@ -395,7 +560,7 @@
     }
 }
 
-/* Mobile Version (600px) */
+/* Mobile Version (400px) */
 
 @media (max-width: 400px){
     
